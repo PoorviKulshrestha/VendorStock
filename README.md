@@ -6,6 +6,7 @@ It helps vendors track products, manage stock, record sales, analyze performance
 This project was built for a hackathon and fulfills the requirement of using Google Technologies.
 
 🚀 Features
+
 🔐 Authentication & User Management
 
   Firebase Authentication (Email & Password)
