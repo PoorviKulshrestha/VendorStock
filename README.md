@@ -6,60 +6,80 @@ It helps vendors track products, manage stock, record sales, analyze performance
 This project was built for a hackathon and fulfills the requirement of using Google Technologies.
 
 🚀 Features
-
 🔐 Authentication & User Management
 
-  Firebase Authentication (Email & Password)
-  Secure login & signup
-  Individual shop profiles for each vendor
+Firebase Authentication (Email & Password)
+
+Secure login & signup
+
+Individual shop profiles for each vendor
 
 📦 Inventory Management
 
-  Add, update, and delete products
-  Product categories (Grocery, Beverages, Snacks, etc.)
-  Real-time stock updates
-  Low-stock alerts
+Add, update, and delete products
+
+Product categories (Grocery, Beverages, Snacks, etc.)
+
+Real-time stock updates
+
+Low-stock alerts
 
 💰 Sales Management
 
-  Record daily sales
-  Automatic stock reduction
-  Profit calculation per sale
-  Daily sales & profit summary
+Record daily sales
+
+Automatic stock reduction
+
+Profit calculation per sale
+
+Daily sales & profit summary
 
 📊 Analytics Dashboard
 
-  Total products & low-stock count
-  Category-wise inventory distribution
-  Inventory value overview
-  AI-generated recommendations
+Total products & low-stock count
+
+Category-wise inventory distribution
+
+Inventory value overview
+
+AI-generated recommendations
 
 🤖 AI Assistant
 
-  Chat-based AI inventory assistant
-  Answers questions like:
-    “Which products are low in stock?”
-    “How can I increase profits?”
-    “Which category performs best?”
-  Context-aware responses using live inventory data
+Chat-based AI inventory assistant
+
+Answers questions like:
+
+“Which products are low in stock?”
+
+“How can I increase profits?”
+
+“Which category performs best?”
+
+Context-aware responses using live inventory data
 
 🛠️ Tech Stack
 🌐 Frontend
 
-  HTML5
-  CSS3 (Responsive UI)
-  Vanilla JavaScript
-  Vite (for fast development & bundling)
+HTML5
+
+CSS3 (Responsive UI)
+
+Vanilla JavaScript
+
+Vite (for fast development & bundling)
 
 ☁️ Google Technologies Used
 
-  Firebase Authentication
-  Cloud Firestore (NoSQL Database)
-  Firebase Hosting
+Firebase Authentication
+
+Cloud Firestore (NoSQL Database)
+
+Firebase Hosting
 
 🤖 AI Integration
 
-  Cohere AI API (for chat assistant & analytics insights)
+Cohere AI API (for chat assistant & analytics insights)
 
 📁 Project Structure
 VendorStock/
@@ -81,22 +101,27 @@ cd vendorstock
 npm install
 
 3️⃣ Firebase Configuration
+
 Create a Firebase project and enable:
-  Authentication → Email/Password
-  Firestore Database
-  
+
+Authentication → Email/Password
+
+Firestore Database
+
 Replace the placeholders in the script section:
-  const firebaseConfig = {
-    apiKey: "_API_KEY",
-    authDomain: "_AUTH_DOMAIN",
-    projectId: "_PROJECT_ID",
-    storageBucket: "_STORAGE_BUCKET",
-    messagingSenderId: "_MESSAGING_SENDER_ID",
-    appId: "_APP_ID"
-  };
+
+const firebaseConfig = {
+  apiKey: "_API_KEY",
+  authDomain: "_AUTH_DOMAIN",
+  projectId: "_PROJECT_ID",
+  storageBucket: "_STORAGE_BUCKET",
+  messagingSenderId: "_MESSAGING_SENDER_ID",
+  appId: "_APP_ID"
+};
 
 4️⃣ Add Cohere API Key
 const COHERE_API_KEY = "_COHERE_KEY";
+
 
 ⚠️ Never expose API keys in production.
 For hackathons, this is acceptable.
@@ -104,7 +129,9 @@ For hackathons, this is acceptable.
 ▶️ Run the Project
 npm run dev
 
+
 Open browser at:
+
 http://localhost:5173
 
 🔐 Firestore Data Structure
@@ -142,26 +169,39 @@ sales/
 🎯 Problem Statement
 
 Small vendors often rely on manual bookkeeping, leading to:
-  Stock mismanagement
-  Missed sales opportunities
-  Poor profit tracking
+
+Stock mismanagement
+
+Missed sales opportunities
+
+Poor profit tracking
+
 VendorStock solves this by providing a digital, intelligent, and easy-to-use inventory system accessible from any device.
 
 ✅ Solution Highlights
 
 No technical knowledge required
+
 Real-time updates using Firestore
+
 AI-powered insights for smarter decisions
+
 Mobile-friendly responsive UI
+
 Secure & scalable cloud backend
 
 🔮 Future Enhancements
 
 Barcode scanning
+
 Invoice & bill generation
+
 Multi-shop management
+
 Predictive demand forecasting
+
 WhatsApp/SMS alerts
+
 Progressive Web App (PWA)
 
 🏆 Hackathon Readiness
@@ -173,5 +213,6 @@ Progressive Web App (PWA)
 ✔ Complete end-to-end product
 
 👤 Author
+
 Milind Garg, Poorvi Kulshrestha
 Hackathon Project – VendorStock
